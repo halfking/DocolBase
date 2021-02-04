@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFE8A2625CBD7B800DDFE86 /* DocolBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFE8A1C25CBD7B800DDFE86 /* DocolBase.framework */; };
+		FFFE8A2B25CBD7B800DDFE86 /* DocolBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFE8A2A25CBD7B800DDFE86 /* DocolBaseTests.m */; };
+		FFFE8A2D25CBD7B800DDFE86 /* DocolBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFE8A1F25CBD7B800DDFE86 /* DocolBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFFE8A2725CBD7B800DDFE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFE8A1325CBD7B800DDFE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFE8A1B25CBD7B800DDFE86;
+			remoteInfo = DocolBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFFE8A1C25CBD7B800DDFE86 /* DocolBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DocolBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFE8A1F25CBD7B800DDFE86 /* DocolBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocolBase.h; sourceTree = "<group>"; };
+		FFFE8A2025CBD7B800DDFE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFE8A2525CBD7B800DDFE86 /* DocolBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocolBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFE8A2A25CBD7B800DDFE86 /* DocolBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocolBaseTests.m; sourceTree = "<group>"; };
+		FFFE8A2C25CBD7B800DDFE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFE8A1925CBD7B800DDFE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE8A2225CBD7B800DDFE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE8A2625CBD7B800DDFE86 /* DocolBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFE8A1225CBD7B800DDFE86 = {
+			isa = PBXGroup;
+			children = (
+				FFFE8A1E25CBD7B800DDFE86 /* DocolBase */,
+				FFFE8A2925CBD7B800DDFE86 /* DocolBaseTests */,
+				FFFE8A1D25CBD7B800DDFE86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFE8A1D25CBD7B800DDFE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE8A1C25CBD7B800DDFE86 /* DocolBase.framework */,
+				FFFE8A2525CBD7B800DDFE86 /* DocolBaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFE8A1E25CBD7B800DDFE86 /* DocolBase */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE8A1F25CBD7B800DDFE86 /* DocolBase.h */,
+				FFFE8A2025CBD7B800DDFE86 /* Info.plist */,
+			);
+			path = DocolBase;
+			sourceTree = "<group>";
+		};
+		FFFE8A2925CBD7B800DDFE86 /* DocolBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE8A2A25CBD7B800DDFE86 /* DocolBaseTests.m */,
+				FFFE8A2C25CBD7B800DDFE86 /* Info.plist */,
+			);
+			path = DocolBaseTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FFFE8A1725CBD7B800DDFE86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE8A2D25CBD7B800DDFE86 /* DocolBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FFFE8A1B25CBD7B800DDFE86 /* DocolBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFE8A3025CBD7B800DDFE86 /* Build configuration list for PBXNativeTarget "DocolBase" */;
+			buildPhases = (
+				FFFE8A1725CBD7B800DDFE86 /* Headers */,
+				FFFE8A1825CBD7B800DDFE86 /* Sources */,
+				FFFE8A1925CBD7B800DDFE86 /* Frameworks */,
+				FFFE8A1A25CBD7B800DDFE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocolBase;
+			productName = DocolBase;
+			productReference = FFFE8A1C25CBD7B800DDFE86 /* DocolBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFFE8A2425CBD7B800DDFE86 /* DocolBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFE8A3325CBD7B800DDFE86 /* Build configuration list for PBXNativeTarget "DocolBaseTests" */;
+			buildPhases = (
+				FFFE8A2125CBD7B800DDFE86 /* Sources */,
+				FFFE8A2225CBD7B800DDFE86 /* Frameworks */,
+				FFFE8A2325CBD7B800DDFE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFE8A2825CBD7B800DDFE86 /* PBXTargetDependency */,
+			);
+			name = DocolBaseTests;
+			productName = DocolBaseTests;
+			productReference = FFFE8A2525CBD7B800DDFE86 /* DocolBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFE8A1325CBD7B800DDFE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FFFE8A1B25CBD7B800DDFE86 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FFFE8A2425CBD7B800DDFE86 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FFFE8A1625CBD7B800DDFE86 /* Build configuration list for PBXProject "DocolBase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFFE8A1225CBD7B800DDFE86;
+			productRefGroup = FFFE8A1D25CBD7B800DDFE86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFE8A1B25CBD7B800DDFE86 /* DocolBase */,
+				FFFE8A2425CBD7B800DDFE86 /* DocolBaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFE8A1A25CBD7B800DDFE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE8A2325CBD7B800DDFE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFE8A1825CBD7B800DDFE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE8A2125CBD7B800DDFE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE8A2B25CBD7B800DDFE86 /* DocolBaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFFE8A2825CBD7B800DDFE86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFE8A1B25CBD7B800DDFE86 /* DocolBase */;
+			targetProxy = FFFE8A2725CBD7B800DDFE86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFFE8A2E25CBD7B800DDFE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFFE8A2F25CBD7B800DDFE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFFE8A3125CBD7B800DDFE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JSNN4SC3KH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DocolBase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.veritrans.DocolBase;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFFE8A3225CBD7B800DDFE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JSNN4SC3KH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DocolBase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.veritrans.DocolBase;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFFE8A3425CBD7B800DDFE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSNN4SC3KH;
+				INFOPLIST_FILE = DocolBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.veritrans.DocolBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFFE8A3525CBD7B800DDFE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSNN4SC3KH;
+				INFOPLIST_FILE = DocolBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.veritrans.DocolBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFE8A1625CBD7B800DDFE86 /* Build configuration list for PBXProject "DocolBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE8A2E25CBD7B800DDFE86 /* Debug */,
+				FFFE8A2F25CBD7B800DDFE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFE8A3025CBD7B800DDFE86 /* Build configuration list for PBXNativeTarget "DocolBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE8A3125CBD7B800DDFE86 /* Debug */,
+				FFFE8A3225CBD7B800DDFE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFE8A3325CBD7B800DDFE86 /* Build configuration list for PBXNativeTarget "DocolBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE8A3425CBD7B800DDFE86 /* Debug */,
+				FFFE8A3525CBD7B800DDFE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFE8A1325CBD7B800DDFE86 /* Project object */;
+}
