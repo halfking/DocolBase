@@ -338,4 +338,9 @@ static NSDateFormatter *dateFormatter = nil;
     return [dateFormatter stringFromDate:self];
 }
 
+- (long) miniSeconds
+{
+    return (long)([self timeIntervalSince1970]*1000);
+}
+
 @end

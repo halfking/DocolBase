@@ -114,6 +114,11 @@ typedef NSMutableString *	(^NSMutableStringReplaceBlock)( NSString * string, NSS
 - (BOOL)isVerifyCode:(int)length;
 - (BOOL)isIdNum;
 - (NSString *)URLDecodedString;
+- (BOOL)isMatchedByRegex:(NSString*)regexExpression;
+- (NSRange)rangeOfRegex:(NSString *)regexExpression;
+- (NSRange)rangeOfRegex:(NSString *)regexExpression options:(NSRegularExpressionOptions)options inRange:(NSRange)range capture:(int)capture error:(NSError**)error;
+- (NSString *)stringByMatching:(NSString*)regexExpression;
+- (NSString *)stringByReplacingOccurrencesOfRegex:(NSString *)regexExpression withString:(NSString*)replace;
 
 
 

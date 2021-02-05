@@ -20,7 +20,7 @@ FOUNDATION_EXPORT const unsigned char DocolBaseVersionString[];
 #import <DocolBase/NSEntity.h>
 #import <DocolBase/JSON.h>
 #import <DocolBase/SBJsonBase.h>
-#import <DocolBase/SBJsonParse.h>
+#import <DocolBase/SBJsonParser.h>
 #import <DocolBase/SBJsonWriter.h>
 #import <DocolBase/NSObject+SBJSON.h>
 #import <DocolBase/NSString+SBJSON.h>

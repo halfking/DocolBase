@@ -801,7 +801,81 @@
 //    }
    
 }
-
+- (BOOL)isMatchedByRegex:(NSString*)regexExpression
+{
+    NSPredicate *regex = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regexExpression];
+    return  [regex evaluateWithObject:self];
+}
+- (NSRange)rangeOfRegex:(NSString *)regexExpression
+{
+    NSError *error;
+    // 创建NSRegularExpression对象并指定正则表达式
+    NSRegularExpression *regex = [NSRegularExpression
+                                  regularExpressionWithPattern:regexExpression
+                                  options:0
+                                  error:&error];
+    if (!error) { // 如果没有错误
+        // 获取特特定字符串的范围
+        NSTextCheckingResult *match = [regex firstMatchInString:self
+                                                        options:0
+                                                          range:NSMakeRange(0, [self length])];
+        if (match) {
+            return match.range;
+        }
+    }
+    else
+    {
+        NSLog(@"rangeOfRegex error:%@",[error localizedDescription]);
+    }
+    return NSMakeRange(NSNotFound, 0);
+}
+- (NSRange)rangeOfRegex:(NSString *)regexExpression options:(NSRegularExpressionOptions)options inRange:(NSRange)range capture:(int)capture error:(NSError **)error
+{
+    // 创建NSRegularExpression对象并指定正则表达式
+    NSError * localError = nil;
+    NSRegularExpression *regex = [NSRegularExpression
+                                  regularExpressionWithPattern:regexExpression
+                                  options:options
+                                  error:&localError];
+    if (!localError) { // 如果没有错误
+        NSArray<NSTextCheckingResult *> * matches = [regex matchesInString:self options:0 range:range];
+        if(matches && matches.count >0 && matches.count>capture)
+        {
+            return [matches objectAtIndex:capture].range;
+        }
+    }
+    else
+    {
+        if(error!=nil)
+        {
+            *error = localError;
+        }
+        NSLog(@"rangeOfRegex error:%@",[(*error) localizedDescription]);
+    }
+    return NSMakeRange(NSNotFound, 0);
+}
+- (NSString *)stringByMatching:(NSString*)regexExpression
+{
+    NSRange range = [self rangeOfRegex:regexExpression];
+    if(range.location!=NSNotFound)
+    {
+        return [self substringWithRange:range];
+    }
+    return nil;
+}
+- (NSString *)stringByReplacingOccurrencesOfRegex:(NSString *)regexExpression withString:(NSString*)replace
+{
+    NSError *error;
+    // 创建NSRegularExpression对象并指定正则表达式
+    NSRegularExpression *regex = [NSRegularExpression
+                                  regularExpressionWithPattern:regexExpression
+                                  options:0
+                                  error:&error];
+    if (!error) { // 如果没有错误
+        return [regex stringByReplacingMatchesInString:self options:0 range:NSMakeRange(0, [self length]) withTemplate:replace];
+    }
+    return nil;
+}
 - (NSString *)securePhone
 {
     if(self.length > 8){

@@ -73,5 +73,5 @@
 @property (readonly) NSInteger year;
 
 - (NSString *)stringWithFormate:(NSString *)formate;
-
+- (long) miniSeconds;
 @end
